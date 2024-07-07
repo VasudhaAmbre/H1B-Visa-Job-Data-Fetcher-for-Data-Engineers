@@ -4,7 +4,7 @@ This Python script is designed to fetch H1B visa job data specific to data engin
 ## Features
 
 - Fetches data from multiple pages of the website using web scraping techniques.
-- Saves the fetched data into an Excel file, separating text content and hyperlinks.
+- Saves the fetched data into an Excel file, separating text content.
 
 ## Requirements
 
@@ -66,6 +66,7 @@ pip install <package_name>
 - Specify column names.
 - Save data to Excel using `save_data_to_excel`.
 
-
+### [In Progress] Hyperlink Extraction
+Currently working on implementing the extraction of hyperlinks from the job listings. This feature will enhance the script's capability to fetch and store both text content and corresponding hyperlinks from the MyVisaJobs website.
 
 
